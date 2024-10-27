@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Layout 2</title>
+</head>
+
+<style>
+    .grid>.item:not(:last-child) {
+        border-bottom: none;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="content-box grid col-1-flexible row-3-custom1 border-color-1">
+            <div class="bg-1 border-around item"></div>
+            <div class="bg-2 border-around item"></div>
+            <div class="bg-3 border-around item"></div>
+        </div>
+    </div>
+</body>
+
+</html>
