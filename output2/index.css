@@ -181,6 +181,10 @@ button {
   margin-left: 10rem;
 }
 
+.margin-t-10 {
+  margin-top: 10rem;
+}
+
 .y-scroll {
   overflow-y: scroll;
 }
@@ -298,6 +302,14 @@ button {
 
 #section-7 button {
   font-size: 1.4rem;
+}
+
+#content-wrapper-7 div:first-child h3 {
+  font-size: 1.4rem;
+}
+
+#content-wrapper-7 div:first-child h2 {
+  font-size: 2rem;
 }
 
 /* image */
